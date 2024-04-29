@@ -1,0 +1,95 @@
+         body {
+                background-image: url('https://i.pinimg.com/564x/04/66/9f/04669fca545c07e989a3bb3b54fd6e46.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                font-family: Helvetica, Georgia;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .glassmorphism {
+                            background: rgba(255, 255, 255, 0.2);
+                            border: 1px solid rgba(255, 255, 255, 0.2);
+                            padding: 80px;
+                            border-radius: 0px; 
+                            backdrop-filter: blur(10px);
+                            width: 400px;
+                            text-align: left;
+                            margin-top: 500px;
+                        }
+
+        h1 {
+            font-size: 40px;
+            color: #000000;
+            text-align: center;
+            
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #000000;
+            text-align: center;
+        }
+
+        label {
+            font-size: 16px;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        select {
+            font-family: helvetica, sans-serif; 
+            width:45%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        textarea#bio {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+                    }
+        a button {
+            background-color: #0077e6;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        a button:hover {
+            background-color: #d1efed;
+        }       
+   
